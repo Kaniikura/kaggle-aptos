@@ -1,0 +1,12 @@
+/input/*
+!/input/.gitkeep
+
+py/ignore.ipynb
+py/*.csv
+py/.ipynb_checkpoints
+py/*.bin
+py/*.pth
+py/*.pt
+
+/data/*
+!/data/.gitkeep
