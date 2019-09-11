@@ -29,4 +29,8 @@ augmentationは水平・垂直フリップと±5°回転．
 #### モデル
 EfficientNetb4  
 回帰(loss: MSE)とクラス分類(loss: FocalLossのデータ数による重み付け)の両方で学習し，アンサンブルした．
+### うまくいかなかったもの
+* [ロバストな誤差関数](https://github.com/jonbarron/robust_loss_pytorch/blob/master/example.ipynb)
+* Metric learning
+* オブジェクトの形状を一致させるような前処理([参考](https://www.kaggle.com/fhopfmueller/removing-unwanted-correlations-in-training-public))
 
